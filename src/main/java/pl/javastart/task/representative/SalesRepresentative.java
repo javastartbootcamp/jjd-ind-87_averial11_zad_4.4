@@ -1,7 +1,7 @@
-package pl.javastart.task.Representative;
+package pl.javastart.task.representative;
 
-import pl.javastart.task.Config.Config;
-import pl.javastart.task.Offer.Offer;
+import pl.javastart.task.config.Config;
+import pl.javastart.task.offer.Offer;
 
 public class SalesRepresentative {
 

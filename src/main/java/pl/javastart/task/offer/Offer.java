@@ -1,4 +1,4 @@
-package pl.javastart.task.Offer;
+package pl.javastart.task.offer;
 
 public class Offer {
     private boolean valid;

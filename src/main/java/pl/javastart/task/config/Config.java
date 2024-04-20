@@ -1,4 +1,4 @@
-package pl.javastart.task.Config;
+package pl.javastart.task.config;
 
 public class Config {
     private int minRequiredEarnings = 2000;
