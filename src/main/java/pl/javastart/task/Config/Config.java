@@ -20,5 +20,4 @@ public class Config {
         this.percentage = percentage;
     }
 
-
 }
