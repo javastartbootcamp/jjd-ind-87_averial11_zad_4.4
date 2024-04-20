@@ -1,6 +1,6 @@
 package pl.javastart.task.service;
 
-import pl.javastart.task.offer.Offer;
+import pl.javastart.task.client.Offer;
 
 public class CustomerService {
     public void payoutOffer(Offer offer) {

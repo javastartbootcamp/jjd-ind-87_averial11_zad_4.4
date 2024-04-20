@@ -1,15 +1,21 @@
-package pl.javastart.task.offer;
+package pl.javastart.task.client;
 
 public class Offer {
     private boolean valid;
     private double value;
     private double percentage;
 
+    Offer(boolean valid, double value, double percentage) {
+        this.valid = valid;
+        this.value = value;
+        this.percentage = percentage;
+    }
+
     public boolean isValid() {
         return valid;
     }
 
-    public void setValid(boolean valid) {
+    private void setValid(boolean valid) {
         this.valid = valid;
     }
 
@@ -17,7 +23,7 @@ public class Offer {
         return value;
     }
 
-    public void setValue(double value) {
+    private void setValue(double value) {
         this.value = value;
     }
 
@@ -25,7 +31,7 @@ public class Offer {
         return percentage;
     }
 
-    public void setPercentage(double percentage) {
+    private void setPercentage(double percentage) {
         this.percentage = percentage;
     }
 

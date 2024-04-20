@@ -1,7 +1,7 @@
 package pl.javastart.task;
 
-import pl.javastart.task.offer.Offer;
-import pl.javastart.task.representative.SalesRepresentative;
+import pl.javastart.task.client.Offer;
+import pl.javastart.task.client.SalesRepresentative;
 import pl.javastart.task.service.CustomerService;
 
 public class Main {
@@ -17,6 +17,7 @@ public class Main {
 //        offer.valid = true;
 //        offer.percentage = -0.5;
 //        offer.value = 3_000_000;
+
 
         CustomerService customerService = new CustomerService();
         customerService.payoutOffer(offer);

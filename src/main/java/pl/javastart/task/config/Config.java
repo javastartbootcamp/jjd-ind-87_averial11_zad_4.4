@@ -8,7 +8,7 @@ public class Config {
         return minRequiredEarnings;
     }
 
-    public void setMinRequiredEarnings(int minRequiredEarnings) {
+    private void setMinRequiredEarnings(int minRequiredEarnings) {
         this.minRequiredEarnings = minRequiredEarnings;
     }
 
@@ -16,7 +16,7 @@ public class Config {
         return percentage;
     }
 
-    public void setPercentage(double percentage) {
+    private void setPercentage(double percentage) {
         this.percentage = percentage;
     }
 
